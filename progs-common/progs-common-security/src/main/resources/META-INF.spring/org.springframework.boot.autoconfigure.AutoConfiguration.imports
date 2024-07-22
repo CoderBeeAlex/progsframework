@@ -1,0 +1,2 @@
+com.progs.common.security.config.WebMvcConfig
+com.progs.common.security.handler.GlobalExceptionHandler
