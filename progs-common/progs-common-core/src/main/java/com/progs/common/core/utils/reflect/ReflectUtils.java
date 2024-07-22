@@ -4,7 +4,6 @@ import com.progs.common.core.text.Convert;
 import com.progs.common.core.utils.DateUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.Validate;
-import org.apache.poi.ss.usermodel.DateUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -197,7 +196,7 @@ public class ReflectUtils
                         }
                         else
                         {
-                            args[i] = DateUtil.getJavaDate((Double) args[i]);
+                            args[i] = DateUtils.getJavaDate((Double) args[i]);
                         }
                     }
                     else if (cs[i] == boolean.class || cs[i] == Boolean.class)

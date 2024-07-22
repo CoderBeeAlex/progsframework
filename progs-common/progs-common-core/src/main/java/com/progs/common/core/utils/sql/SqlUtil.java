@@ -1,9 +1,8 @@
 package com.progs.common.core.utils.sql;
 
 
+import com.progs.common.core.exception.UtilException;
 import com.progs.common.core.utils.StringUtils;
-import com.sun.xml.internal.ws.util.UtilException;
-
 /**
  * sql操作工具类
  * 

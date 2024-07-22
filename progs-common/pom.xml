@@ -11,9 +11,9 @@
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.progs</groupId>
-    <artifactId>progs-common</artifactId>
-    <version>${revision}</version>
     <packaging>pom</packaging>
+    <artifactId>progs-common</artifactId>
+
     <modules>
         <module>progs-common-core</module>
         <module>progs-common-security</module>

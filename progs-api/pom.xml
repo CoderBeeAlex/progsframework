@@ -11,12 +11,10 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.progs</groupId>
     <artifactId>progs-api</artifactId>
-    <version>${revision}</version>
-    <packaging>pom</packaging>
     <modules>
         <module>progs-api-core</module>
     </modules>
-
+    <packaging>pom</packaging>
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
